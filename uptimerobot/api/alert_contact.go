@@ -23,6 +23,7 @@ var alertContactType = map[string]int{
 	"slack":      11,
 	"telegram":		18,
 	"hangouts":	  21,
+	"pagerduty":  16,
 }
 var AlertContactType = mapKeys(alertContactType)
 
